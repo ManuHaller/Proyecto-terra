@@ -205,12 +205,12 @@ section{
 }
 
 .home{
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
-    background:url(img/WhatsApp\ Image\ 2022-10-26\ at\ 22.23.22.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    
+    background-size: 100%;
+    background-position: right;
 }
 
 .home .content{
@@ -218,21 +218,66 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 10rem;
     text-transform: uppercase;
-    color:#fff;
-    background-color: rgba(0,0,0,.5);
+    color:black;
+    position:absolute;
+
 }
 
 .home .content p{
-    background-color: rgba(0,0,0,.5);
-    font-size: 2rem;
-    font: weight bolder ;
+
+    font-size: larger;
+    font-weight: bolder;
     line-height: 1.8;
-    padding:1rem 0;
-    color:#fff;
+    padding:1rem  10;
+    color:black;
+    position:absolute;
+
 }
 
+.huerta .row .image{
+
+    flex: 1.45rem;
+}
+.huerta .row .image img{
+    width: 100%;
+}
+.objetivos .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.objetivos .row .image {
+    flex: 1.45rem;
+}
+
+.objetivos .row .image img{
+    width: 100%;
+}
+
+.objetivos .row .content{
+
+}
+.objetivos .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+    align-items: center;
+}
+.objetivos .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.hipotesis .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+    align-items: center;
+}
 .hipotesis .row{
     display: flex;
     align-items: center;
@@ -241,7 +286,7 @@ section{
 }
 
 .hipotesis .row .image{
-    flex:1 1 45rem;
+    flex:1 1.45rem;
 }
 
 .hipotesis .row .image img{
@@ -255,6 +300,7 @@ section{
 .hipotesis .row .content h3{
     font-size: 3rem;
     color:#fff;
+    align-items: center;
 }
 
 .hipotesis .row .content p{
@@ -538,7 +584,7 @@ section{
 
 .footer{
     background:var(--black);
-    text-align: center;
+    text-align:center;
 }
 
 .footer .share{
@@ -556,6 +602,7 @@ section{
     border-radius: 60%;
     padding: 0;
     justify-content: center;
+    position:center;
 }
 
 
@@ -672,10 +719,11 @@ section{
 @media (max-width:450px){
 
     html{
-        font-size: 50%;
+        font-size: 100%;
     }
 
 }
+
 
 
 
